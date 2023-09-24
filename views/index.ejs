@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <%- include('partials/head'); %>
+    <title>Document</title>
+    <%- include('partials/styles'); %>
+</head>
+<body>
+<%- include('partials/nav-bar'); %>
+
+
+<div id="layoutSidenav">
+    <%- include('partials/side-nav'); %>
+
+    <div id="layoutSidenav_content">
+        <main>
+            <div class="container-fluid px-4">
+
+
+
+              <!DOCTYPE html>
+              <html lang="en">
+              <head>
+                  <meta charset="UTF-8">
+                  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                  <title>Página de Inicio</title>
+                  <style>
+                      body {
+                          margin: 0;
+                          padding: 0;
+                          font-family: Arial, sans-serif;
+                          background-color: #f4f4f4;
+                      }
+                      .card {
+                          width: 600px;
+                          height: 400px;
+                          margin: 100px auto;
+                          padding: 20px;
+                          background-color: white;
+                          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+                          border-radius: 10px;
+                          display: flex;
+                          flex-direction: column;
+                          align-items: center;
+                          text-align: center;
+                      }
+                      .card img {
+                          max-width: 100%;
+                          max-height: 200px;
+                          margin-bottom: 20px;
+                      }
+                  </style>
+              </head>
+              <body>
+                  <div class="card">
+                      <img src="https://cdn-icons-png.flaticon.com/512/6330/6330660.png" alt="Imagen de ejemplo">
+                      <h2>Bienvenidos al Sistema de calificacion</h2>
+                      <p>Sistema de calificaciones utilizando node.js y renderizados con EJS, utilizando bootstrap como css y rutas relativas.</p>
+                  </div>
+              </body>
+              </html>
+              
+           
+            </div>
+        </main>
+
+        <%- include('partials/footer'); %>
+    </div>
+</div>
+
+
+<%- include('partials/scripts'); %>
+</body>
+</html>
